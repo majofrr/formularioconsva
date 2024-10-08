@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Caja">
+        <h1 class="centrado cabecera">CONSVA Survey Form</h1>
+        <p class="centrado">Thank you for taking the time to help us improve the platform</p>
+        <!-- Formulario -->
+        <form action="#" class="formulario">
+            <label for="" class="titulo">Name</label><br>
+            <input type="text" class="campo-texto" placeholder="Enter your name"><br>
+            <label for="" class="titulo">Email</label><br>
+            <input type="text" class="campo-texto" placeholder="Enter your Email"><br>
+            <label for="" class="titulo">Age</label><br>
+            <input type="number" class="campo-texto" placeholder="Age"><br>
+            <label for="" class="titulo">Which option best describes your current role?</label><br>
+            <select aria-placeholder="select current role" class="campo-seleccion rol">
+                <option value="" disable hidden selected class="opcion-inicial">Please Choose...</option>
+                <option value="Student">Student</option>
+            </select><br>
+            <label for="" class="titulo">Would you recommend CONSVA to a friend?</label><br>
+            <input type="radio" name="friend" value="Definitely" id="" class="radio-boton"> <span class="texto-seleccion">Definitely</span> <br>
+            <input type="radio" name="friend" value="Not sure" id="" class="radio-boton"> <span class="texto-seleccion">Not sure</span> <br><br>
+            <label for="" class="titulo">What is your favorite feature of CONSVA? <span class="observacion">(Check all that apply)</span></label><br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">Front-end projects</span> <br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">Back-end Projects</span> <br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">Data visualization</span> <br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">Challenges</span> <br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">Open Source Community</span> <br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">Gitter help rooms</span> <br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">Videos</span> <br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">City Meetups</span> <br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">Wiki</span> <br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">Forum</span> <br>
+            <input type="checkbox" name="feature" id="" class="caja-seleccion"> <span class="texto-seleccion">Additional courses</span> <br><br>
+            <label for="" class="titulo">Any comments or suggestions?</label><br>
+            <textarea wrap="hard" name="comments" id="" cols="40" rows="10" class="campo-textarea" placeholder="Enter your comments"></textarea><br><br>
+            <input type="submit" value="Submit" class="boton-envio">
+        </form>
+    </div>
+</body>
+</html>
